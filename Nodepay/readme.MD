@@ -1,5 +1,8 @@
 📞 Contact
 
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+
+
 > If you encounter any issues or have questions, feel free to reach out:
 
 - Contact: [Link](t.me/MeoMunDep)
@@ -62,6 +65,9 @@ ey...
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
 
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
+
 ```txt - wallet address
 abc...xyz
 abc...xyz
@@ -80,6 +86,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it.
-> To run the bot, use the following command: `cd nodepay-main/nodepay; node bot`
+> To run the bot, use the following command: `cd nodepay-main/nodepay; node meomundep`
 
 🎇Enjoy!
