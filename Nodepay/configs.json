@@ -2,9 +2,8 @@
   "timeZone": "en-US",
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
-  "isSkipInvalidProxy": false,
-  "rotateProxyForAllAccounts": true,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
-  "retryOnErrorAccount": 5
+  "skipInvalidProxy": false,
+  "delayEachAccount": [1, 1],
+  "retryOnErrorAccount": 5,
+  "doTasks": true
 }
