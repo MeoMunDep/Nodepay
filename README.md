@@ -46,12 +46,12 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ### 2. `datas.txt` - 🗂️ User Data
 
-Fill the `datas.txt` file with these datas from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
+
 
 ```txt
-query_id.../user...
-query_id.../user...
-query_id.../user...
+ey...
+ey...
+ey...
 ```
 
 _Note: Each row for each account_
@@ -59,6 +59,7 @@ _Note: Each row for each account_
 ### 3. `proxies.txt` - 🌐 Proxy List (Optional)
 
 If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
+- [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
 
 ```txt
 http://host:port
@@ -94,7 +95,7 @@ _Note: Wallet updates are currently not supported._
 1. Navigate to the folder containing the bot files:
 
    ```bash
-   cd /path/to/bot-folder/
+   cd /path/to/nodepay/
    ```
 
 2. Run the bot using the following command:
@@ -164,6 +165,9 @@ If you encounter any issues or have questions, feel free to reach out:
 - **Contact:** [Contact Me](https://t.me/MeoMunDep)
 - **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
 - **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
+- **YouTube Channel:** [Watch here](https://www.youtube.com/@keoairdropfreene)
+- **Instagram:** [Follow me](https://www.instagram.com/meomundep)
+- **Tiktok:** [Follow me](https://www.tiktok.com/@meomundep)
 
 Your support is greatly appreciated! 🐱
 
