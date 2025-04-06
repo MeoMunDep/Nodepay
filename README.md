@@ -44,9 +44,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `retryOnErrorAccount`: Number of login error retry on each account.
 
 
-### 2. `datas.txt` - 🗂️ User Data
-
-
+### 2. `datas.txt` - 🗂️ User Data, get it from [here](https://t.me/KeoAirDropFreeNee/1517)
 
 ```txt
 ey...
