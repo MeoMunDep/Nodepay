@@ -7,10 +7,6 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 ## Table of Contents
 
 1. [Configuration Files](#configuration-files)
-   - [`configs.json`](#1-configsjson)
-   - [`datas.txt`](#2-datastxt)
-   - [`proxies.txt`](#4-proxiestxt)
-   - [`wallets.txt`](#3-walletstxt)
 2. [Running the Bot](#running-the-bot)
 3. [Contact and Support](#contact-and-support)
 
@@ -18,13 +14,11 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 ## Configuration Files
 
-### 1. `configs.json` - 📜 Adjust Bot Settings
-
-This file controls the bot’s behavior. Below is an example configuration:
+<details>
+<summary><strong>1. configs.json – 📜 Adjust Bot Settings</strong></summary>
 
 ```json
 {
-  "timeZone": "en-US",
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
   "skipInvalidProxy": false,
@@ -32,19 +26,23 @@ This file controls the bot’s behavior. Below is an example configuration:
   "retryOnErrorAccount": 5,
   "doTasks": true
 }
-```
+````
 
-- **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `doTasks`: Enable task completion.
-  - `retryOnErrorAccount`: Number of login error retry on each account.
+* **Fields Explained:**
 
+  * `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
+  * `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
+  * `skipInvalidProxy`: Skip invalid proxies if `true`.
+  * `delayEachAccount`: Random delay range (in seconds) between accounts.
+  * `retryOnErrorAccount`: Number of login error retries per account.
+  * `doTasks`: Enable task completion.
 
-### 2. `datas.txt` - 🗂️ User Data, get it from [here](https://t.me/KeoAirDropFreeNee/1517)
+</details>
+
+<details>
+<summary><strong>2. datas.txt – 🗂️ User Data</strong></summary>
+
+Get it from [here](https://t.me/KeoAirDropFreeNee/1517)
 
 ```txt
 ey...
@@ -52,12 +50,29 @@ ey...
 ey...
 ```
 
-_Note: Each row for each account_
+*Note: Each row for each account.*
 
-### 3. `proxies.txt` - 🌐 Proxy List (Optional)
+</details>
 
-If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
-- [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
+<details>
+<summary><strong>3. wallets.txt – 💼 Wallet Addresses</strong></summary>
+
+Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
+```txt
+abc...xyz
+abc...xyz
+abc...xyz
+```
+
+*Note: Wallet updates are currently not supported.*
+
+</details>
+
+<details>
+<summary><strong>4. proxies.txt – 🌐 Proxy List (Optional)</strong></summary>
+
+Get it from [Webshare](https://www.webshare.io/?referral_code=4l5kb3glsce7)
 
 ```txt
 http://host:port
@@ -70,105 +85,77 @@ socks4://user:password@host:port
 socks5://user:password@host:port
 ```
 
-_Note: each row for each account_
+*Note: Each row for each account.*
+
+</details>
 
 ---
-
-### 4. `wallets.txt` - 💼 Wallet Addresses
-
-- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-
-Add your wallet addresses in the following format:
-
-```txt
-abc...xyz
-abc...xyz
-abc...xyz
-```
-
-_Note: Wallet updates are currently not supported._
 
 ## Running the Bot
 
-1. Navigate to the folder containing the bot files:
+<details>
+<summary><strong>▶️ Windows (run.bat)</strong></summary>
 
-   ```bash
-   cd /path/to/nodepay/
-   ```
+1. Double click `run.bat`
+   *Or open terminal and run:*
 
-2. Run the bot using the following command:
-
-#### **Windows**
-
-Open Command Prompt (cmd) or PowerShell and run:
-
-```powershell
-./meomundep.exe
+```bat
+run.bat
 ```
 
-(If that doesn’t work, try `meomundep.exe` or `.\meomundep.exe`.)
+</details>
 
----
+<details>
+<summary><strong>🐧 Linux/macOS (run.sh)</strong></summary>
 
-#### **Linux**
+1. Make it executable:
 
-Since `.exe` files are designed for Windows, you need **Wine** to run them:
+```bash
+chmod +x run.sh
+```
 
-1. **Install Wine (if not installed):**
-   - **Ubuntu/Debian:**
-     ```bash
-     sudo apt update && sudo apt install wine
-     ```
-   - **Arch Linux:**
-     ```bash
-     sudo pacman -S wine
-     ```
-   - **Fedora:**
-     ```bash
-     sudo dnf install wine
-     ```
-2. **Run the program:**
-   ```bash
-   wine meomundep.exe
-   ```
+2. Run the script:
 
----
+```bash
+./run.sh
+```
 
-#### **macOS**
+</details>
 
-macOS also requires **Wine** to run `.exe` files:
+<details>
+<summary><strong>🐍 Manual (Any OS)</strong></summary>
 
-1. **Install Homebrew (if not installed):**
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   ```
-2. **Install Wine:**
-   ```bash
-   brew install wine
-   ```
-3. **Run the program:**
-   ```bash
-   wine meomundep.exe
-   ```
+Run directly with Python:
+
+```bash
+python meomundep.py
+```
+
+*Use `python3` if needed.*
+
+</details>
 
 ---
 
 ## Contact and Support
 
-- **Help me with your referral** [Referral Link](https://app.nodepay.ai/register?ref=xGz96WB6euTMrJT)
-- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
+* **Referral Link:** [Register here](https://app.nodepay.ai/register?ref=xGz96WB6euTMrJT)
 
-If you encounter any issues or have questions, feel free to reach out:
+* **Buy Telegram Accounts:** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
-- **Contact:** [Contact Me](https://t.me/MeoMunDep)
-- **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
-- **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
-- **YouTube Channel:** [Watch here](https://www.youtube.com/@keoairdropfreene)
-- **Instagram:** [Follow me](https://www.instagram.com/meomundep)
-- **Tiktok:** [Follow me](https://www.tiktok.com/@meomundep)
+* **Contact:** [Contact Me](https://t.me/MeoMunDep)
 
-Your support is greatly appreciated! 🐱
+* **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
+
+* **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
+
+* **YouTube Channel:** [Watch here](https://www.youtube.com/@keoairdropfreene)
+
+* **Instagram:** [Follow me](https://www.instagram.com/meomundep)
+
+* **TikTok:** [Follow me](https://www.tiktok.com/@meomundep)
 
 ---
 
 Enjoy using the bot! 🚀
+
