@@ -1,8 +1,8 @@
 {
   "howManyAccountsRunInOneTime": 99999,
   "timeToRestartAllAccounts": 300,
-  "skipInvalidProxy": false,
   "delayEachAccount": [1, 1],
+  "skipInvalidProxy": false,
   "retryOnErrorAccount": 5,
   "doTasks": true
 }
