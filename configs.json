@@ -1,7 +1,6 @@
 {
-  "timeZone": "en-US",
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "howManyAccountsRunInOneTime": 99999,
   "skipInvalidProxy": false,
   "delayEachAccount": [1, 1],
   "retryOnErrorAccount": 5,
