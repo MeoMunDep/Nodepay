@@ -1,0 +1,4 @@
+aiohttp>=3.8.0
+aiohttp-proxy>=0.1.1
+cloudscraper>=1.2.71
+colorama>=0.4.6
